@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpotFinder</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="shortcut icon" href="https://spotfinder.app/static/media/spotfinder-logo-blue.049c7fdc813df46e912c.png"
+    type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <img
+          src="https://spotfinder.app/static/media/spotfinder-logo-blue.049c7fdc813df46e912c.png" width="23%"
+          height="23%" class="logo" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">
+            <li>Home</li>
+          </a>&nbsp;
+          <a class="nav-link" href="#">
+            <li>Features</li>
+          </a>&nbsp;
+          <a class="nav-link" href="#">
+            <li>Blog</li>
+          </a>&nbsp;
+          <a class="nav-link" href="#">
+            <li>Become a Partner</li>
+          </a>
+        </div>
+        <span class="navbar-text">
+          <form class="d-flex">
+            <button class="btn" type="login">Login</button>
+            <button class="btn reg rounded-pill py-0" type="submit">Register</button>
+          </form>
+        </span>
+      </div>
+    </div>
+  </nav>
+  <i class="fa-solid fa-bag-shopping fa-2xl" style="color: #df2020;"></i>
+
+  <hr>
+  <!-- navbar end -->
+
+  <!-- main information div start -->
+  <div class="container">
+    <h1 style="letter-spacing: 1px; font-size: 50px; color: rgb(71, 71, 71);">Parking <span
+        style="color:rgb(226 55 68)">Simplified</span></h1>
+    <br>
+    <p style="letter-spacing: 0.5px; color:rgb(71, 71, 71)" class="h5">Easily Find a Parking Space now!</p>
+    <form action="">
+      <i class="fa-solid fa-map-location-dot fa-lg" style="color: #df2020d7;"></i>
+      <div class="input-group ">
+        <input type="text" aria-label="Sizing example input" placeholder="Your Location"
+          aria-describedby="inputGroup-sizing-lg">
+      </div>
+      <br>
+      <select aria-label=".form-select-lg example">
+        <option selected>Select Vehicle Category</option>
+        <option value="1">Car</option>
+        <option value="2">Event</option>
+        <option value="3">Valet</option>
+        <option value="3">Semi Truck</option>
+      </select>
+      <i class="fa-solid fa-car fa-lg" style="color: #df2020bd;"></i>
+      <br>
+      <form class="d-flex">
+        <i class="fa-solid fa-arrow-right-to-bracket fa-lg" style="color: #df2020b7;"></i>
+        <button class="btn in" type="login">Check-In</button>
+        <button class="btn out" type="submit">Check-Out</button>
+        <i class="fa-solid fa-arrow-right-to-bracket fa-flip-horizontal fa-lg" style="color: #df2020b7;"></i>
+      </form>
+      <button class="btn rounded-pill reg search" type="login">Searching Parking Spaces</button>
+    </form>
+    <div class="container" style="background-color: transparent;">
+      <figure>
+        <img src="https://spotfinder.app/static/media/screen1.648aee58f5669afbb362.png" width="55%" height="60%" alt=""
+          class="img-fluid">
+      </figure>
+    </div>
+  </div>
+  <!-- main information div end -->
+
+  <div class="container-fluid we" style="text-align: center;">
+    <h1 style="letter-spacing: 1px; font-size: 50px; color: rgb(71, 71, 71);">We are everywhere!</h1>
+    <p style="letter-spacing: 0.5px; color:rgb(71, 71, 71)" class="h5">Find a new home for your car.</p>
+  </div>
+
+  <!-- cards start -->
+  <div class="card-park">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+
+    <div class="col">
+      <div class="card card1">
+        <img
+          src="https://spotfinder.s3.amazonaws.com/prod/parkingType/image-2-1669441415635-parking-spot-ga322cfbbe_1920.jpg?AWSAccessKeyId=AKIA4YAR6RQXGID5IUNC&Expires=1698567961&Signature=FgpChBCZVFrvOpbcE1zdyjrNdmw%3D"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title ">City Parking</h5>
+          <br>
+          <button class="card-text rounded-pill park">Find a Parking</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card card2">
+        <img
+          src="https://spotfinder.s3.amazonaws.com/prod/parkingType/image-2-1669441399715-truck-ga56c42344_1920.jpg?AWSAccessKeyId=AKIA4YAR6RQXGID5IUNC&Expires=1698567961&Signature=BJT%2BUl%2FdaMGkiQrfpAtX27MfrBA%3D"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Semi Truck Parking</h5>
+          <br>
+          <button class="card-text rounded-pill park">Find a Parking</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card3">
+        <img
+          src="https://spotfinder.s3.amazonaws.com/prod/parkingType/image-2-1669138145575-othmane-ferrah-IWCG-alj4uY-unsplash.jpg?AWSAccessKeyId=AKIA4YAR6RQXGID5IUNC&Expires=1698567961&Signature=Djdhkwvj3Diwjt%2FXr2U7snfn%2F1I%3D"
+          height="265px" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Airport Parking</h5>
+          <br>
+          <button class="card-text rounded-pill park">Find a Parking</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+  <!-- cards end -->
+
+  <!-- why start -->
+  <div class="container-fluid why">
+
+    <h1 style="letter-spacing: 1px; color: white; position: relative; top: 35px;">Why Spot Finder?</h1>
+    <br>
+    <p style="letter-spacing: 0.5px; color: white; font-weight: 400; position: relative; top: 25px;" class="h5">We understand the pain for finding the right spot where your car feels home. <br> Handicap friendly spots, diligent
+      customer support, we aim to comfort you with <br> nearest parking spot!</p>
+
+ <div class="card-group">
+
+  <div class="card cg1" >
+    <i class="fa-regular fa-clock fa-2xl card-img-top" style="color: #df2020;"></i>
+    <div class="card-body">
+      <h5 class="card-title">it's fast</h5>
+      <p class="card-text">Our new app makes finding spots in not more than 3 steps. We're building the largest network of parking spots!</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+
+  <div class="card cg2">
+    <i class="fa-regular fa-face-smile fa-2xl card-img-top" style="color: #df2020;"></i>
+    <div class="card-body">
+      <h5 class="card-title">it's easy</h5>
+      <p class="card-text">We aim to keep you hooked to our services with an experience excellence team!</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+
+  <div class="card cg3">
+    <i class="fa-solid fa-handshake-simple fa-2xl card-img-top" style="color: #df2020;"></i>
+    <div class="card-body">
+      <h5 class="card-title">it's affordable</h5>
+      <p class="card-text">Find affordable spots and spend your days stress-free while your car is parked with us.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  </div>
+
+</div>
+<!-- why end -->
+
+<!-- Airport Parking start -->
+<div class="container ap">
+
+  <h1 style="letter-spacing: 1px; text-align: center;">Airport Parking</h1>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col card-group2">
+      <div class="card ap-card1">
+        <img src="https://spotfinder.s3.amazonaws.com/prod/parking-space-location-image/5/parking-3-1669213781147-Days_4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231028T082602Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIA4YAR6RQXGID5IUNC%2F20231028%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6a0ffd754d20270ecd7342adde0ba9e20e5a3553895c7bea71a865b8352a3a00" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Days Inn Fort Lauderdale Airport Cruise Port.</h5>
+          <p class="card-text"></p>
+          <button class="card-text rounded-pill park bn">Book Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card ap-card2">
+        <img src="https://spotfinder.s3.amazonaws.com/prod/parking-space-location-image/10/parking-3-1670864656713-Days_Inn_Orlando_1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231028T082602Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIA4YAR6RQXGID5IUNC%2F20231028%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b1f1cae49fdb5dbd8eae3042ddc58bbc3f5fa6732d5db33ce3f169340c77bd28" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Days Inn Orlando Downtown</h5>
+          <p class="card-text" style="position: relative; bottom: 200px;">Da</p>
+          <button class="card-text rounded-pill park bn2" style="position: relative; bottom: 210px;">Book Now</button>
+        </div> 
+      </div>
+    </div>
+    <div class="col">
+      <div class="card ap-card3">
+        <img src="https://spotfinder.s3.amazonaws.com/prod/parking-space-location-image/12/parking-3-1673895367397-Home_2_Suites_6.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231028T082602Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIA4YAR6RQXGID5IUNC%2F20231028%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c95b68098a79152b39785abcc22818f572d3ac5831a9995e64e0b2d5befa1732" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Home 2 Suites Fort Lauderdale Airport</h5><br>
+          <p class="card-text" style="position: relative; bottom: 210px;">Th</p>
+          <button class="card-text rounded-pill park" style="font-weight: bold;">Book Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card ap-card4">
+        <img src="https://spotfinder.s3.amazonaws.com/prod/parking-space-location-image/13/parking-3-1673888063740-holiday-inn-express-and-suites-hialeah-1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231028T082602Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIA4YAR6RQXGID5IUNC%2F20231028%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=06bca6add42eeb0ad9da7ad4b67af43d524ea2298d07171dcf79caf1df6fbf2a" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Holiday Inn Express & Suites Hialeah</h5>
+          <p class="card-text"></p>
+          <button class="card-text rounded-pill park bn">Book Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<!-- Airport Parking end -->
+
+<!-- Review start -->
+<i class="fa-solid fa-circle-user fa-2xl" style="color: #fdbad7;"></i>
+<div class="container review">
+  <h5 style="position: relative; left: 40px;">Anonymous</h5>
+ <div class="stars">
+  <i class="fa-solid fa-star fa-lg" style="color: #ffdd00;"></i>
+  <i class="fa-solid fa-star fa-lg" style="color: #ffdd00;"></i>
+  <i class="fa-solid fa-star fa-lg" style="color: #ffdd00;"></i>
+  <i class="fa-solid fa-star fa-lg" style="color: #ffdd00;"></i>
+  <i class="fa-solid fa-star fa-lg" style="color: #ffdd00;"></i>
+ </div>
+  <br>
+  <p>We are loved SpotFinder. It was easy and smile for us. I am 80 years old and we liked how easy  it to do a booking.</p>
+  <button style="color: #df2020; border: none; background-color: transparent;">Read More>></button>
+</div>
+<!-- Review end -->
+
+
+<!-- div.reads start -->
+<h1 style="letter-spacing: 1px; text-align: center;">Interesting Reads!</h1>
+ <h3 style="position: relative; left: 50px; top: 20px;">New articles</h3>
+ <a href="#" style="float: right; position: relative; right: 50px; color: #df2020; font-size: 18px;">View all</a>
+<div class="row row-cols-1 row-cols-md-3 g-4 reads">
+  <div class="col">
+    <div class="card">
+      <img src="https://spotfinder.s3.amazonaws.com/prod/parkingType/image-2-1673319292048-airport-g3bf653e83_1920.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231028T103843Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIA4YAR6RQXGID5IUNC%2F20231028%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=df52738958babd17ceb4c98d57d03cc3aeb28aec5243bc2e427f89f9eb69b7d7" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Why book your car parking spot online?</h5>
+        <p class="card-text readp">Online car parking can be a game-changer for anyone planning a trip, whether it's for b</p>
+        <button style="color: #df2020; border: none; background-color: transparent; position: relative;
+        bottom: 210px; right: 130px;">Read More>></button>  
+    </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://spotfinder.s3.amazonaws.com/prod/parkingType/image-2-1693460811916-Parking_App_Being_Used.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231028T103843Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIA4YAR6RQXGID5IUNC%2F20231028%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=2ad6d74b5d2cfd7fdb01dbd819681cf7a61e13262bc52647284c0ebfcc09fbbe" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">How Parking Apps Outshine Traditional Street Parking</h5>
+        <button style="color: #df2020; border: none; background-color: transparent;
+        position: relative;
+        bottom: 180px; right: 130px;">Read More>></button> 
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://spotfinder.s3.amazonaws.com/prod/parkingType/image-205-1694193347154-Untitled_design.PNG?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231028T103843Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIA4YAR6RQXGID5IUNC%2F20231028%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=12ec3a748c5f54f59ab79b38e4e4514ad2f481279d51fca2e5fe2292c6a3d6b8" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">From Manual to Digital: The Inevitable Shift of the Parking Industry </h5>
+        <button style="color: #df2020; border: none; background-color: transparent;
+        position: relative; bottom: 180px; right: 130px;"">Read More>></button> 
+      </div>
+    </div>
+  </div>
+</div>
+<!-- div.reads end -->
+
+<!-- partner start -->
+<div class="container fluid" style="height: 400px; background-image: url(./charles-forerunner-3fPXt37X6UQ-unsplash.jpg);">
+<h1 style="font-size: 63px; text-align: center; letter-spacing: 2px; color: white; position: relative; top: 50px;">Partner With Spot Finder</h1>
+<br>
+<h3 style="position: relative; top: 50px; text-align: center; letter-spacing: 1px; color: white;">Grow your business by listing your service with us.</h3>
+<br><br>
+<button style="border: none; padding: 20px 30px; font-weight: bold; position: relative; top: 50px; left: 380px;" class="rounded-pill reg partner">Become a partner</button>
+</div>
+<!-- partner end -->
+
+<!-- subscribe start -->
+<div class="container fluid sub">
+<h1 style="letter-spacing: 1px; color: rgb(26, 25, 25); text-align: center;">SUBSCRIBE</h1>
+<h5 style="text-align: center; color: gray;">Subscribe to our Spot finder & stay Updated</h5>
+<br>
+<input type="email" placeholder="Enter Your Email" style="padding: 10px 70px; border: 1px solid rgb(155, 154, 154); border-radius: 5px; position: relative;
+left: 320px;">
+<button style="border: none; padding: 10px 20px; border-radius: 5px; position: relative; left: 295px;" class="reg partner">Subscribe</button>
+</div>
+<!-- subscribe end -->
+
+<div class="last">
+<h5 style="color: #df2020; position: relative; top: 40px; left: 120px;">About Us</h5>
+<br><br><br>
+<p class="lastp" style="color: grey; width: 350px; position: relative; left: 80px;">As Travelers and preplanners on a trip, we hate not being able to find parking on a reliable site. We decided to solve this by starting in house!</p>
+
+<h5 style="color: #df2020; position: relative; top: -150px; left: 480px;">Company</h5>
+<br><br><br>
+<p class="lastp" style="color: grey; width: 350px; position: relative; top: -190px; left: 480px;">Privacy Policy
+  Cancellation Policy Terms and Conditions</p>
+
+  <h5 style="color: #df2020; position: relative; top: -320px; left: 830px;">Contact Info</h5>
+  <br><br><br>
+ <ul type="none" style="position: relative; left: 780px; bottom: 400px;">
+  <li>contact@spotfinder.app</li>
+  <li>833-799-7770</li>
+  <li>Fort Lauderdale, Florida</li>
+  <li>Contact Support</li>
+ </ul>
+
+ <h5 style="color: #df2020; position: relative; top: -620px; left: 1080px;">Payment Accepted</h5>
+ <p class="lastp" style="color: grey; text-align: center;  position: relative; bottom: 400px;">All rights reserved © 2023 - SpotFinder by Travel Life LLC • Made with ❤️</p>
+</div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
